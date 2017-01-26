@@ -1,0 +1,81 @@
+/*
+font-family: 'Open Sans Condensed';
+@extend .fr;
+@include anim(0.3s);
+*/
+.citypage {
+  padding-bottom: 37px; }
+
+.citypage-find {
+  background-color: #f3f5f9;
+  padding: 29px 0px 40px 0px; }
+
+.citypage__title {
+  margin-bottom: 30px; }
+
+.citypage-calendar {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  height: 69px; }
+  .citypage-calendar.active {
+    height: 300px; }
+
+.citypage-calendar-column {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 46px;
+  overflow: hidden; }
+  .citypage-calendar-column.active {
+    height: 300px; }
+
+.citypage-calendar-item {
+  height: 45px;
+  border: 1px solid #d5dce9;
+  background-color: #fbfbfb;
+  position: relative; }
+  .citypage-calendar-item.left {
+    width: 49%;
+    float: left; }
+  .citypage-calendar-item.right {
+    width: 49%;
+    float: right; }
+  .citypage-calendar-item:before {
+    content: '';
+    background: url("../img/icons/calendar.svg") center no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    left: 18px;
+    z-index: 1; }
+  .citypage-calendar-item.active:after {
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    width: 15px;
+    height: 7px;
+    margin-left: -5px;
+    content: '';
+    background: url("../img/icons/arrow.png") 0 0 no-repeat;
+    background-size: 100%; }
+
+.citypage-calendar__input {
+  width: 100%;
+  line-height: 43px;
+  padding-left: 50px;
+  color: #808989;
+  font-size: 15px;
+  position: relative;
+  z-index: 2;
+  background-color: transparent; }
