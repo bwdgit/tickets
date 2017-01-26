@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>City</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/citypage.css">
+	<link type="text/css" rel="stylesheet" href="css/datepicker.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header-message hide message">
+				<div class="message__text">By using our website, you agree to our use of cookies.</div>
+				<a href="" class="message__close">Close</a>
+			</div>
+			<div class="header-body">
+				<div class="container">
+					<div class="header-body-table table">
+						<div class="header-body-cell cell">
+							<a href="" class="header-body__logo"><img src="img/earth.png" alt="" /></a>
+						</div>
+						<div class="header-body-cell cell">
+							<div class="header-body-search">
+								<form action="#">
+									<button type="submit" class="header-body-search__btn"></button>
+									<input type="text" name="form[]" data-value="SEARCH EVENTS" class="header-body-search__input" />
+								</form>
+							</div>
+						</div>
+						<div class="header-body-cell cell">
+							<a href="" class="header-body__reset">CANCEL</a>
+							<a href="" class="header-body__link">My Tickets</a>
+						</div>
+					</div>
+				</div>
+				<div class="header-body-examples">
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="citypage">
+				<div class="citypage-find">
+					<div class='container'>
+						<form action="#">
+							<div class="citypage__title content__minititle">Get tickets for the best events in Washington DC</div>
+							<div class="citypage-calendar row">
+								<div class="citypage-calendar-column row" id="datefrom">
+									<div class="citypage-calendar-item left">
+										<div class="citypage-calendar__input">From</div>
+										<input id="inputfrom" type="hidden" name="form[]" />
+									</div>
+								</div>
+								<div class="citypage-calendar-column row" id="dateto">
+									<div class="citypage-calendar-item right">
+										<div class="citypage-calendar__input" >To</div>
+										<input id="inputto" type="hidden" name="form[]" />
+									</div>
+								</div>
+							</div>
+							<button class="citypage-calendar__btn btn" type="submit">Find Events</button>
+						</form>
+					</div>
+				</div>
+				<div class="events tabs">
+					<ul class="events-filter">
+						<li><a href="#t1" class="events-filter__link">All</a></li>
+						<li><a href="#t2" class="events-filter__link">Sports</a></li>
+						<li><a href="#t3" class="events-filter__link">Concerts</a></li>
+						<li><a href="#t4" class="events-filter__link">Theatre</a></li>
+					</ul>
+					<div class="events-blocks">
+						<div id="t1" class="events-block">
+							<div class="events-block row">
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="events__more btn">Load more</a>
+						</div>
+						<div id="t2" class="events-block">
+							<div class="events-block row">
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="events__more btn">Load more</a>
+						</div>
+						<div id="t3" class="events-block">
+							<div class="events-block row">
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="events__more btn">Load more</a>
+						</div>
+						<div id="t4" class="events-block">
+							<div class="events-block row">
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/01.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">Billy Joel</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="events-column">
+									<div class="events-item">
+										<div class="events-item__image"><img src="img/events/02.png" alt="" /></div>
+										<div class="events-item-text">
+											<div class="events-item-text-table table">
+												<a href="" class="events-item-text-cell cell">
+													<span class="events-item__text">New York Knicks</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="events__more btn">Load more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-table table">
+				<div class="footer-row trow">
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Terms & Conditions</a>
+					</div>
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Cookies Policy</a>
+					</div>
+				</div>
+				<div class="footer-row trow">
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Local legal link</a>
+					</div>
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Privacy</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-table table">
+				<div class="footer-cell cell">
+					<a href="" class="footer__link">FAQ</a>
+				</div>
+				<div class="footer-cell cell">
+					<a href="" class="footer__link">Contact us</a>
+				</div>
+			</div>
+			<div class="footer-table table">
+				<div class="footer-cell footer-cell_copyright cell">© Hello Tickets, SL.</div>
+			</div>
+		</footer>
+		<div class='popup-bg'></div>
+		<div class='popup'>
+			<div class="popup__title">New York vs. Oklahoma City Thunder</div>
+			<form action="#">
+				<div class="popup-body table">
+					<div class="popup-body-cell cell">2 entradas juntas desde 250€ cada una</div>
+					<div class="popup-body-cell cell">
+						<div class="quantity table">
+							<div class="quantity-cell cell">
+								<button class="quantity__btn dwn"></button>
+							</div>
+							<div class="quantity-cell cell">
+								<input type="text" name="form[]" value="1" class="quantity__input" />
+							</div>
+							<div class="quantity-cell cell">
+								<button class="quantity__btn up"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup-button">
+					<button class="popup-button__btn btn" type="submit">View Tickets</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.12.0-beta.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
