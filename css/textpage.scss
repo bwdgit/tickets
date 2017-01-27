@@ -1,0 +1,18 @@
+@mixin anim($time){-webkit-transition: all $time ease;-moz-transition: all $time ease;-ms-transition: all $time ease;-o-transition: all $time ease;transition: all $time ease;}
+@mixin rotate($deg){-moz-transform: rotate($deg);-ms-transform: rotate($deg);-webkit-transform: rotate($deg);-o-transform: rotate($deg);transform: rotate($deg);}
+@mixin scale($num){-moz-transform: scale($num);-ms-transform: scale($num);-webkit-transform: scale($num);-o-transform: scale($num);transform: scale($num);}
+@mixin cnt($h){display: flex;flex-direction: column;height: $h;text-align: center;align-items: stretch;justify-content: center;}
+//====================================================================================================
+/*
+font-family: 'Open Sans Condensed';
+@extend .fr;
+@include anim(0.3s);
+*/
+//====================================================================================================
+.textpage {padding: 15px 15px 200px 15px;color: #333333;}
+.textpage__title {font-size: 18px;margin-bottom: 10px;}
+.textpage-body {color: #000000;font-size: 13px;line-height: 16px;
+	p{margin-bottom: 15px;
+		&:last-child{margin-bottom: 0;}
+	}
+}

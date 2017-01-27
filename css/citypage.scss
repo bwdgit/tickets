@@ -1,0 +1,28 @@
+@mixin anim($time){-webkit-transition: all $time ease;-moz-transition: all $time ease;-ms-transition: all $time ease;-o-transition: all $time ease;transition: all $time ease;}
+@mixin rotate($deg){-moz-transform: rotate($deg);-ms-transform: rotate($deg);-webkit-transform: rotate($deg);-o-transform: rotate($deg);transform: rotate($deg);}
+@mixin scale($num){-moz-transform: scale($num);-ms-transform: scale($num);-webkit-transform: scale($num);-o-transform: scale($num);transform: scale($num);}
+@mixin cnt($h){display: flex;flex-direction: column;height: $h;text-align: center;align-items: stretch;justify-content: center;}
+//====================================================================================================
+/*
+font-family: 'Open Sans Condensed';
+@extend .fr;
+@include anim(0.3s);
+*/
+//====================================================================================================
+.citypage{padding-bottom: 37px;}
+.citypage-find {background-color: #f3f5f9;padding: 29px 0px 40px 0px;}
+.citypage__title {margin-bottom: 30px;}
+.citypage-calendar {@include anim(0.3s);position: relative;height: 69px;
+	&.active{height: 300px;}
+}
+.citypage-calendar-column {@include anim(0.3s);width: 100%;position: absolute;top: 0;left: 0;height: 46px;overflow: hidden;
+	&.active{height: 300px;}
+}
+.citypage-calendar-item {height: 45px;border: 1px solid #d5dce9;background-color: #fbfbfb;position: relative;
+	&.left{width: 49%;float: left;}
+	&.right{width: 49%;float: right;}
+	&:before{content:'';background: url('../img/icons/calendar.svg') center no-repeat;background-size: 100%;width: 15px;height: 100%;position: absolute;left: 18px;z-index: 1;}
+	&.active:after{position: absolute;bottom: -7px;left: 50%;width: 15px;height: 7px;margin-left: -5px;content: '';background: url('../img/icons/arrow.png') 0 0 no-repeat;background-size: 100%;}
+}
+.citypage-calendar__input{width: 100%;line-height: 43px;padding-left: 50px;color: #808989;font-size: 15px;position: relative;z-index: 2;background-color: transparent;}
+.citypage-calendar__btn {}

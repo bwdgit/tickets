@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Checkout - Payment</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/checkout.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+	<div class="wrapper">
+		<!-- 
+		<header>
+			<div class="header-message hide message">
+				<div class="message__text">By using our website, you agree to our use of cookies.</div>
+				<a href="" class="message__close">Close</a>
+			</div>
+			<div class="header-body">
+				<div class="container">
+					<div class="header-body-table table">
+						<div class="header-body-cell cell">
+							<a href="" class="header-body__logo"><img src="img/earth.png" alt="" /></a>
+						</div>
+						<div class="header-body-cell cell">
+							<div class="header-body-search">
+								<form action="#">
+									<button type="submit" class="header-body-search__btn"></button>
+									<input type="text" name="form[]" data-value="SEARCH EVENTS" class="header-body-search__input" />
+								</form>
+							</div>
+						</div>
+						<div class="header-body-cell cell">
+							<a href="" class="header-body__reset">CANCEL</a>
+							<a href="" class="header-body__link">My Tickets</a>
+						</div>
+					</div>
+				</div>
+				<div class="header-body-examples">
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+					<a href="" class="header-body-examples-item">
+						<span class="header-body-examples-item__title">New York Knicks vs San Antonio Spurs</span>
+						<span class="header-body-examples-item__date">Jan 20, 2016</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		 -->
+		<div class="content">
+			<div class="checkout">
+				<div class="checkout-payment tabs">
+					<ul class="checkout-payment-header">
+						<li><a href="#p1" class="checkout-payment__link checkout-payment__link_1"><span><img src="img/payment/01.png" alt="" /></span></a></li>
+						<li><a href="#p2" class="checkout-payment__link checkout-payment__link_2"><span><img src="img/payment/02.svg" alt="" /></span>CARD</a></li>
+						<li><a href="#p3" class="checkout-payment__link checkout-payment__link_3"><span><img src="img/payment/03.png" alt="" /></span></a></li>
+					</ul>
+					<div class="checkout-payment-body">
+						<div id="p1" class="checkout-payment-item">
+							<!-- 
+							<div class="checkout-form">
+								<form action="#">
+									<div class="checkout-form-rows">
+										<div class="checkout-form-row">
+											<div class="checkout-form__label">CARD NAME</div>
+											<input type="text" class="checkout-form__input" name="form[]" />
+										</div>
+										<div class="checkout-form-row">
+											<div class="checkout-form__label">CARD NUMBER</div>
+											<div class="checkout-form-card">
+												<input type="text" data-value="0000 0000 0000 0000" class="checkout-form__input" name="form[]" />
+												<div class="checkout-form-card__icon"><img src="img/cards/01.svg" alt="" /></div>
+											</div>
+										</div>
+										<div class="checkout-form-row row">
+											<div class="checkout-form-column">
+												<div class="checkout-form__label">EXPIRY DATE</div>
+												<input type="text" data-value="MM/YY" class="checkout-form__input" name="form[]" />
+											</div>
+											<div class="checkout-form-column">
+												<div class="checkout-form__label">CVC</div>
+												<input type="text" class="checkout-form__input" name="form[]" />
+											</div>
+										</div>
+										<div class="checkout-form-row row">
+											<div class="checkout-form__label padd">To prevent fraud, we need to check the postal code linked to your credit card.</div>
+											<div class="checkout-form-column">
+												<input type="text" data-value="POSTAL CODE" class="checkout-form__input" name="form[]" />
+											</div>
+											<div class="checkout-form-column"></div>
+										</div>
+										<div class="checkout-form-row">
+											<button type="submit" class="checkout-form__btn btn">Review order</button>
+										</div>
+										<div class="checkout-form-row">
+											<div class="checkout-form__bottomtext">You will be able to review the information before confirming the payment.</div>
+										</div>
+									</div>
+								</form>
+							</div>
+							 -->
+						</div>
+						<div id="p2" class="checkout-payment-item">
+							<div class="checkout-form">
+								<form action="#">
+									<div class="checkout-form-rows">
+										<div class="checkout-form-row">
+											<div class="checkout-form__label">CARD NAME</div>
+											<input type="text" class="checkout-form__input name req" name="form[]" />
+										</div>
+										<div class="checkout-form-row">
+											<div class="checkout-form__label">CARD NUMBER</div>
+											<div class="checkout-form-card">
+												<input type="tel" data-value="0000 0000 0000 0000" class="checkout-form__input req card" name="form[]" />
+												<div class="checkout-form-card__icon"><img src="img/cards/01.svg" alt="" /></div>
+											</div>
+										</div>
+										<div class="checkout-form-row row">
+											<div class="checkout-form-column">
+												<div class="checkout-form__label">EXPIRY DATE</div>
+												<input type="tel" data-value="MM/YY" class="checkout-form__input req date" name="form[]" />
+											</div>
+											<div class="checkout-form-column">
+												<div class="checkout-form__label">CVC</div>
+												<input type="tel" maxlength="3" class="checkout-form__input cvc req" name="form[]" />
+											</div>
+										</div>
+										<div class="checkout-form-row row">
+											<div class="checkout-form__label padd">To prevent fraud, we need to check the postal code linked to your credit card.</div>
+											<div class="checkout-form-column">
+												<input type="tel" data-value="POSTAL CODE" class="checkout-form__input" name="form[]" />
+											</div>
+											<div class="checkout-form-column"></div>
+										</div>
+										<div class="checkout-form-row">
+											<button type="submit" class="checkout-form__btn btn">Review order</button>
+										</div>
+										<div class="checkout-form-row">
+											<div class="checkout-form__bottomtext">You will be able to review the information before confirming the payment.</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div id="p3" class="checkout-payment-item">
+							<div class="checkout-form">
+								<form action="#">
+									<div class="checkout-form__title minimargin">New York Knicks vs Chicago Bulls</div>
+									<div class="checkout-form-rows">
+										<div class="checkout-form-row">
+											<div class="checkout-form__text">
+												<p class="checkout-form__text_mid">Monday Feb 1, 9:00PM</p>
+												<p>Madison Square Garden</p>
+												<p>New York, New York</p>
+											</div>
+										</div>
+										<div class="checkout-form-row">
+											<div class="checkout-form__text checkout-form__text_padd">
+												<p>Section <strong>101</strong>, Row <strong>7</strong></p>
+												<p>Seats <strong>112</strong>, <strong>113</strong></p>
+											</div>
+										</div>
+										<div class="checkout-form-row">
+											<div class="checkout-form-table table">
+												<div class="checkout-form-row trow">
+													<div class="checkout-form-cell cell">2 Tickets</div>
+													<div class="checkout-form-cell cell">2 x 625,00 ARS <span>Includes all fees</span></div>
+												</div>
+												<div class="checkout-form-row trow">
+													<div class="checkout-form-cell cell">
+														<div class="checkout-form__totallable">TOTAL PRICE</div>
+													</div>
+													<div class="checkout-form-cell cell">
+														<div class="checkout-form__totalprice">1.250,00 ARS</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="checkout-form-row">
+											<button type="submit" class="checkout-form__btn btn">Go to PayPal</button>
+										</div>
+										<div class="checkout-form-row">
+											<div class="checkout-form__bottomtext">You will be redirected to PayPal to complete the payment.</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 
+		<footer>
+			<div class="footer-table table">
+				<div class="footer-row trow">
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Terms & Conditions</a>
+					</div>
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Cookies Policy</a>
+					</div>
+				</div>
+				<div class="footer-row trow">
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Local legal link</a>
+					</div>
+					<div class="footer-cell cell">
+						<a href="" class="footer__link">Privacy</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-table table">
+				<div class="footer-cell cell">
+					<a href="" class="footer__link">FAQ</a>
+				</div>
+				<div class="footer-cell cell">
+					<a href="" class="footer__link">Contact us</a>
+				</div>
+			</div>
+			<div class="footer-table table">
+				<div class="footer-cell footer-cell_copyright cell">© Hello Tickets, SL.</div>
+			</div>
+		</footer>
+		 -->
+		<div class='popup-bg'></div>
+		<div class='popup'>
+			<div class="popup__title">New York vs. Oklahoma City Thunder</div>
+			<form action="#">
+				<div class="popup-body table">
+					<div class="popup-body-cell cell">2 entradas juntas desde 250€ cada una</div>
+					<div class="popup-body-cell cell">
+						<div class="quantity table">
+							<div class="quantity-cell cell">
+								<button class="quantity__btn dwn"></button>
+							</div>
+							<div class="quantity-cell cell">
+								<input type="text" name="form[]" value="1" class="quantity__input" />
+							</div>
+							<div class="quantity-cell cell">
+								<button class="quantity__btn up"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup-button">
+					<button class="popup-button__btn btn" type="submit">View Tickets</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.12.0-beta.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mask.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

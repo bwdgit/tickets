@@ -1,0 +1,21 @@
+/*
+font-family: 'Open Sans Condensed';
+@extend .fr;
+@include anim(0.3s);
+*/
+.textpage {
+  padding: 15px 15px 200px 15px;
+  color: #333333; }
+
+.textpage__title {
+  font-size: 18px;
+  margin-bottom: 10px; }
+
+.textpage-body {
+  color: #000000;
+  font-size: 13px;
+  line-height: 16px; }
+  .textpage-body p {
+    margin-bottom: 15px; }
+    .textpage-body p:last-child {
+      margin-bottom: 0; }

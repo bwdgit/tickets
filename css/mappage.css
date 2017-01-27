@@ -1,0 +1,121 @@
+/*
+font-family: 'Open Sans Condensed';
+@extend .fr;
+@include anim(0.3s);
+*/
+.mappage {
+  padding-bottom: 15px; }
+
+.mappage-header {
+  position: relative;
+  padding: 10px 50px;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(110deg, #5379d9 0%, #867dea 60%, #877dea 85%, #917bea 100%); }
+
+.mappage-header__back {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  background: url("../img/icons/back.svg") 0 0 no-repeat;
+  background-size: 100%; }
+
+.mappage-header__text_1 {
+  font-size: 15px; }
+  .mappage-header__text_1 span {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+
+.mappage-header__text_2 {
+  font-size: 12px; }
+  .mappage-header__text_2 span {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+
+.mappage-map {
+  height: 320px;
+  overflow: hidden;
+  position: relative; }
+
+.mappage-map__item {
+  height: 320px;
+  text-align: center; }
+  .mappage-map__item img {
+    max-width: 100%; }
+  .mappage-map__item.active {
+    overflow: auto; }
+    .mappage-map__item.active img {
+      max-width: none; }
+
+.mappage-map-bottom {
+  height: 48.5px;
+  background-color: rgba(144, 168, 220, 0.64);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 6px 0px 0px 0px; }
+
+.mappage-map-quantity.quantity {
+  max-width: 136px;
+  margin: 0px auto;
+  font-size: 0; }
+  .mappage-map-quantity.quantity .quantity-cell {
+    font-size: 13px;
+    color: #fff;
+    text-align: center; }
+  .mappage-map-quantity.quantity .quantity-cell_input {
+    padding: 0 5px; }
+  .mappage-map-quantity.quantity .quantity__btn {
+    width: 33px;
+    height: 33px; }
+    .mappage-map-quantity.quantity .quantity__btn.dwn {
+      background: url("../img/icons/minus_w.svg") 0 0 no-repeat;
+      background-size: 100%; }
+    .mappage-map-quantity.quantity .quantity__btn.up {
+      background: url("../img/icons/plus_w.svg") 0 0 no-repeat;
+      background-size: 100%; }
+  .mappage-map-quantity.quantity .quantity__input {
+    height: 33px;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    width: 15px; }
+
+.mappage-map-bottom__label {
+  position: absolute;
+  bottom: 3px;
+  font-size: 10px;
+  color: #fff; }
+  .mappage-map-bottom__label.left {
+    left: 15px; }
+  .mappage-map-bottom__label.right {
+    right: 15px; }
+
+.mappage-table-cell {
+  padding: 13px;
+  border-bottom: 1px solid #eff1f7; }
+  .mappage-table-cell:last-child {
+    text-align: right; }
+
+.mappage-table__section {
+  color: #829ca9;
+  font-size: 10px; }
+  .mappage-table__section strong {
+    color: #2f4366;
+    font-weight: 700;
+    font-size: 13px;
+    margin-right: 5px; }
+
+.mappage-table__price {
+  color: #4cb44c; }
